@@ -1,0 +1,44 @@
+{
+  "name": "celf-cli",
+  "version": "0.0.2",
+  "description": "Cellinlab's self-developed CLI (Command-Line Interface), used for rapid development.",
+  "main": "index.js",
+  "bin": {
+    "ccli": "./bin/ccli.js"
+  },
+  "scripts": {
+    "build": "node ./bin/build.js"
+  },
+  "keywords": [
+    "celf-cli",
+    "cli",
+    "command-line",
+    "command-line-interface",
+    "command-line-tool",
+    "indiedev",
+    "indiedevkit"
+  ],
+  "author": "cellinlab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cellinlab/celf-cli.git"
+  },
+  "homepage": "https://celf-cli.cellinlab.com/",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "minimist": "^1.2.8",
+    "util": "^0.12.5"
+  }
+}
