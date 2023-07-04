@@ -1,6 +1,6 @@
 {
   "name": "celf-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cellinlab's self-developed CLI (Command-Line Interface), used for rapid development.",
   "main": "index.js",
   "bin": {
